@@ -1,0 +1,23 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint index.ts",
+    "build": "tsc -p ."
+  },
+  "bin": {
+    "find-orphans": "./index.js"
+  },
+  "author": "Louay Alakkad <louay@alakkad.me>",
+  "license": "LGPL-3.0",
+  "keywords": [
+    "dependencies"
+  ],
+  "devDependencies": {
+    "tslint": "^3.0.0",
+    "typescript": "^1.6.2"
+  },
+  "typings": "index.d.ts",
+  "name": "find-orphans",
+  "description": "Locates orphan js files in the current project",
+  "version": "0.0.1"
+}
