@@ -19,5 +19,14 @@
   "typings": "index.d.ts",
   "name": "find-orphans",
   "description": "Locates orphan js files in the current project",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "cli": "^0.11.1",
+    "glob": "^6.0.1",
+    "madge": "^0.5.3"
+  },
+  "devDependencies": {
+    "tslint": "^3.0.0",
+    "typescript": "^1.6.2"
+  }
 }
