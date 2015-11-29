@@ -17,5 +17,7 @@ Then, add it to **package.json**:
 }
 ```
 
+And run it when needed. `npm run find-orphans`
+
 You can customize it easily. Try `./node_modules/.bin/find-orphans --help` to
 get a list of available options.
